@@ -1,0 +1,53 @@
+{
+    "name":             "pattern-lab/starterkit-twig-drupal-demo",
+    "description":      "Pattern Lab's Demo StarterKit for Drupal.",
+    "keywords":         ["twig", "pattern lab", "starterkit", "demo", "drupal"],
+    "homepage":         "http://patternlab.io",
+    "license":          "GPL-2.0+",
+    "type":             "patternlab-starterkit",
+    "authors": [
+        {
+            "name":         "Dave Olsen",
+            "email":        "dmolsen@gmail.com",
+            "homepage":     "http://dmolsen.com",
+            "role":         "Lead Developer"
+        },
+        {
+            "name":         "Brad Frost",
+            "homepage":     "http://bradfrostweb.com",
+            "role":         "Creator"
+        },
+        {
+            "name":         "Aleksi Peebles",
+            "role":         "Contributor"
+        },
+        {
+            "name":         "Anne Sturdivant",
+            "role":         "Contributor"
+        },
+        {
+            "name":         "Evan Lovely",
+            "role":         "Contributor"
+        }
+    ],
+    "support": {
+        "issues":         "https://github.com/pattern-lab/starterkit-twig-drupal-demo/issues",
+        "wiki":           "http://patternlab.io/docs/",
+        "source":         "https://github.com/pattern-lab/starterkit-twig-drupal-demo/releases"
+    },
+    "require": {
+        "pattern-lab/core": "0.*",
+        "pattern-lab/patternengine-twig": "~0.7",
+        "twig/twig": "1.*"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "patternlab": {
+            "dist": {
+                "sourceDir": [
+                    { "*": "*" }
+                ]
+            }
+        }
+    }
+}
